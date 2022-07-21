@@ -74,6 +74,9 @@
     .blog{
         width: 100%;
     }
+    .view-all{
+        visibility: hidden;
+    }
     /*=====================================
                BLOG PART END
     ======================================*/
@@ -194,6 +197,11 @@
     .blog{
         width: 100%;
     }
+    .view-all{
+        visibility: visible;
+        text-align: center;
+    }
+    
 }
 /*=====================================
            FOR LARGE DEVICES
@@ -232,8 +240,18 @@
     .blog{
         width: 100%;
     }
+    .view-all{
+        visibility: hidden;
+    }
     /*=====================================
                  FOOTER PART START
     ======================================*/
     
+}
+
+@media only screen and (min-width: 1313px) and (max-width: 1400px){
+    .view-all{visibility: hidden;}
+}
+@media only screen and (min-width: 1401px) and (max-width: 20000px){
+    .view-all{visibility: hidden;}
 }
